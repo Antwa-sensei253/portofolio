@@ -1,26 +1,19 @@
-# Welcome to your Lovable project
+# Ahmed Elsayed - Full-Stack Developer Portfolio
 
-## Project info
+A modern, responsive portfolio showcasing full-stack development expertise with clean design and smooth interactions.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+## Project Info
 
-## How can I edit this code?
+This portfolio features:
+- Full-Stack Development Projects (.NET, Angular, Python, Django)
+- Services & Expertise Overview
+- Tech Stack Highlights
+- Contact & Social Links
+- Responsive Design with Tailwind CSS
 
-There are several ways of editing your application.
+## How to Get Started
 
-**Use Lovable**
-
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
-
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
+Follow these steps to set up and run the project locally:
 
 ```sh
 # Step 1: Clone the repository using the project's Git URL.
@@ -50,24 +43,54 @@ npm run dev
 - Click on "New codespace" to launch a new Codespace environment.
 - Edit files directly within the Codespace and commit and push your changes once you're done.
 
-## What technologies are used for this project?
+## What Technologies Are Used?
 
 This project is built with:
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+- **Vite** - Fast build tool and dev server
+- **TypeScript** - Type-safe JavaScript
+- **React** - UI component library
+- **shadcn-ui** - High-quality React components
+- **Tailwind CSS** - Utility-first CSS framework
+- **Lucide React** - Beautiful icon library
+- **React Router** - Client-side routing
+- **React Query** - Server state management
 
-## How can I deploy this project?
+## How Can I Deploy This Project?
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+You can deploy this project to various platforms:
 
-## Can I connect a custom domain to my Lovable project?
+### Vercel (Recommended)
+1. Connect your GitHub repository to Vercel
+2. Vercel automatically detects Vite and deploys
+3. Your site goes live instantly
 
-Yes, you can!
+### Netlify
+1. Connect your GitHub repository to Netlify
+2. Set build command: `npm run build`
+3. Set publish directory: `dist`
+4. Deploy!
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+### Traditional Hosting
+1. Run `npm run build` to create an optimized production build
+2. Upload the `dist/` folder to your hosting provider
+3. Configure your server to serve `index.html` for all routes
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+## Can I Connect a Custom Domain?
+
+Yes! Most hosting platforms allow custom domains:
+
+- **Vercel**: Go to Project Settings > Domains
+- **Netlify**: Go to Domain Settings > Custom Domain
+- **Traditional Hosting**: Update DNS records to point to your server
+
+## Contact & Links
+
+- **GitHub**: https://github.com/Antwa-sensei253
+- **LinkedIn**: https://www.linkedin.com/in/ahmed-elsayed-8b9aa6234/
+- **Twitter**: https://x.com/AntwaAhmed
+- **Email**: ahmed.qwerty253@gmail.com
+
+## License
+
+This project is open source and available under the MIT License.
